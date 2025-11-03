@@ -26,17 +26,13 @@ The process is as follows:
 
 Follow these steps to compile and run the project from your terminal.
 
-1.  **Navigate to the Project Directory**
-
-    Open your terminal and make sure you are in the `AccountBalance` directory.
-
-2.  **Compile the Java Files**
+1.  **Compile the Java Files**
 
     ```bash
     javac *.java
     ```
 
-3.  **Generate the Data Files**
+2.  **Generate the Data Files**
 
     Run the `DataCreation` program to create `oldmast.txt` and `trans.txt`.
 
@@ -44,12 +40,12 @@ Follow these steps to compile and run the project from your terminal.
     java DataCreation
     ```
 
-4.  **Run the File Matching Program**
+3.  **Run the File Matching Program**
     Execute the main `FileMatch` program to process the files and produce the final output.
     ```bash
     java FileMatch
     ```
-5.  **Check the Output**
+4.  **Check the Output**
     After running, you will find two new files:
     - `newmast.txt`: Contains the updated account balances.
     - `log.txt`: Contains any transactions that did not have a matching account.
